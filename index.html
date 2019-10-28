@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Hayes Valley Trees</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.1/leaflet.css" rel="stylesheet" />
+ <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+<style>
+p.lede {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Sans-serif;
+    padding: 0em 1em 3em 1em;
+}
+h1 {
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 1.3em;
+}
+h1 span {
+    display: block;
+    font-size: 1.4em;
+}
+dt {
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<p class="lede">Last chance to</p>
+<h1><span>Save the trees</span>
+in Hayes Valley</h1>
+
+<p>27 trees in Hayes Valley are <strong>scheduled for removal</strong>.</p>
+
+<p>Join us at the <strong>final appeal</strong> to stop the city from unneccessarily removing all ficus trees in Hayes Valley.</p>
+
+<dl>
+<dt>When</dt><dd>Wednesday 6th November at 6:30pm</dd>
+<dt>Where</dt><dd>Pizza and vegan nibbles at 531 Grove St from 6:30pm<br>
+Then room 416 at City Hall, fourth floor when our appeal is called</dd>
+</dl>
+
+<p class="email">E-mail <a href="mailto:hayes-valley-trees@googlegroups.com">hayes-valley-trees@googlegroups.com</a> for more information.</p>
+<h3>Map of trees that are scheduled for removal</h3>
+<div id="themap" style="height: 500px; margin: 0; padding: 0"></div>
+<script>
+var mymap = L.map('themap').setView([37.777609310293336, -122.42485463619234], 18);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    detectRetina: true,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+fetch(
+    // https://hayes-valley-trees.glitch.me/csv-data/trees.json?_shape=array
+    "/trees-for-removal.json"
+).then(r => r.json()).then(trees => {
+    trees.forEach(tree => {
+        var marker = L.marker(
+            [tree.latitude, tree.longitude], {
+                title: tree.name
+            }
+        ).bindPopup(tree.name).addTo(mymap);
+    });
+});
+</script>
+
+</body>
+</html>

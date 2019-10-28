@@ -1,0 +1,191 @@
+[
+    {
+        "name": "530 Grove Street",
+        "rowid": 1,
+        "latitude": 37.777621999999994,
+        "circumference_in": 72,
+        "longitude": -122.4252798
+    },
+    {
+        "name": "501 Grove Street",
+        "rowid": 2,
+        "latitude": 37.777533500000004,
+        "circumference_in": 43,
+        "longitude": -122.4250467
+    },
+    {
+        "name": "499 Grove Street - Tree 1",
+        "rowid": 3,
+        "latitude": 37.7775685,
+        "circumference_in": 47,
+        "longitude": -122.42469840000001
+    },
+    {
+        "name": "499 Grove Street - Tree 2",
+        "rowid": 4,
+        "latitude": 37.7775849,
+        "circumference_in": 56,
+        "longitude": -122.42463799999999
+    },
+    {
+        "name": "600 Octavia Street - Tree 1",
+        "rowid": 5,
+        "latitude": 37.777763,
+        "circumference_in": 67,
+        "longitude": -122.42478359999998
+    },
+    {
+        "name": "600 Octavia Street - Tree 2",
+        "rowid": 6,
+        "latitude": 37.777806700000006,
+        "circumference_in": 57,
+        "longitude": -122.42478559999999
+    },
+    {
+        "name": "636 Octavia Street",
+        "rowid": 7,
+        "latitude": 37.7781234,
+        "circumference_in": 60,
+        "longitude": -122.42485659999998
+    },
+    {
+        "name": "666 Octavia Street",
+        "rowid": 8,
+        "latitude": 37.7784154,
+        "circumference_in": 56,
+        "longitude": -122.42491799999999
+    },
+    {
+        "name": "601 Grove Street - Tree 1",
+        "rowid": 9,
+        "latitude": 37.777815000000004,
+        "circumference_in": 55,
+        "longitude": -122.4249596
+    },
+    {
+        "name": "601 Grove Street - Tree 2",
+        "rowid": 10,
+        "latitude": 37.777749,
+        "circumference_in": 58.5,
+        "longitude": -122.42493540000001
+    },
+    {
+        "name": "523 Octavia Street",
+        "rowid": 11,
+        "latitude": 37.7770769,
+        "circumference_in": 59,
+        "longitude": -122.4248067
+    },
+    {
+        "name": "515 Octavia Street",
+        "rowid": 12,
+        "latitude": 37.7769866,
+        "circumference_in": 62,
+        "longitude": -122.42478359999998
+    },
+    {
+        "name": "501 Octavia Street",
+        "rowid": 13,
+        "latitude": 37.776824100000006,
+        "circumference_in": 94,
+        "longitude": -122.4247433
+    },
+    {
+        "name": "520 Hayes Street - Tree 1",
+        "rowid": 14,
+        "latitude": 37.77668679999999,
+        "circumference_in": 74.5,
+        "longitude": -122.42505919999999
+    },
+    {
+        "name": "520 Hayes Street - Tree 2",
+        "rowid": 15,
+        "latitude": 37.7766736,
+        "circumference_in": 74,
+        "longitude": -122.4251631
+    },
+    {
+        "name": "520 Hayes Street - Tree 3",
+        "rowid": 16,
+        "latitude": 37.776673100000004,
+        "circumference_in": 50,
+        "longitude": -122.4252281
+    },
+    {
+        "name": "568 Hayes Street",
+        "rowid": 17,
+        "latitude": 37.7766118,
+        "circumference_in": 75,
+        "longitude": -122.4257465
+    },
+    {
+        "name": "530 Hayes Street",
+        "rowid": 18,
+        "latitude": 37.776869399999995,
+        "circumference_in": 58,
+        "longitude": -122.42372009999998
+    },
+    {
+        "name": "508 Octavia Street - Tree 3",
+        "rowid": 19,
+        "latitude": 37.776945700000006,
+        "circumference_in": 49,
+        "longitude": -122.4246216
+    },
+    {
+        "name": "508 Octavia Street - Tree 5",
+        "rowid": 20,
+        "latitude": 37.7770136,
+        "circumference_in": 49.5,
+        "longitude": -122.42462900000001
+    },
+    {
+        "name": "508 Octavia Street - Tree 6",
+        "rowid": 21,
+        "latitude": 37.777082799999995,
+        "circumference_in": 49,
+        "longitude": -122.4246458
+    },
+    {
+        "name": "380 Ivy Street",
+        "rowid": 22,
+        "latitude": 37.777213700000004,
+        "circumference_in": 74,
+        "longitude": -122.4246038
+    },
+    {
+        "name": "426 Ivy Street",
+        "rowid": 23,
+        "latitude": 37.777110799999996,
+        "circumference_in": 58.5,
+        "longitude": -122.42528109999999
+    },
+    {
+        "name": "534 Octavia Street",
+        "rowid": 24,
+        "latitude": 37.7772656,
+        "circumference_in": 70,
+        "longitude": -122.42468570000001
+    },
+    {
+        "name": "534 Octavia Street - Tree 2",
+        "rowid": 25,
+        "latitude": 37.777318900000004,
+        "circumference_in": 38,
+        "longitude": -122.4247011
+    },
+    {
+        "name": "550 Octavia Street - Tree 1",
+        "rowid": 26,
+        "latitude": 37.7773777,
+        "circumference_in": 55,
+        "longitude": -122.4247118
+    },
+    {
+        "name": "550 Octavia Street - Tree 3",
+        "rowid": 27,
+        "latitude": 37.777437899999995,
+        "circumference_in": 52,
+        "longitude": -122.42473190000001
+    }
+]
